@@ -346,6 +346,29 @@ img {
     gap: 30px;
 }
 
+.section-c-slap {
+    position: relative;
+}
+
+.section-c-slap-text {
+    position: absolute;
+    top: 76%;
+    left: 0;
+    width: 370px;
+    height: 70px;
+    padding-top: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
 /* ------------=================SECTION-D============---------------- */
 
 .section-d {
@@ -581,6 +604,73 @@ img {
     background-color: var(--icon-color-svg);
 }
 
+.footer-mailing {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+
+.mailing {
+    margin-left: 93px;
+}
+
+.mailing-btn-input {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.mailing-input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;
+    padding-left: 16px;
+}
+
+.mailing-input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.mailing-btn {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.button-svg {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+    fill: #FFFFFF;
+
+}
+
 /* -------------===============PORTFOLIO============--------------- */
 
 .btn-title {
@@ -755,6 +845,10 @@ img {
 
 .modal-svg {
     fill: #000000;
+}
+
+.modal-svg:hover {
+    fill: var(--icon-color-svg);
 }
 
 .is-hidden {
