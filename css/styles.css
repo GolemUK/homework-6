@@ -40,6 +40,7 @@ ul {
 
 .border {
     border: none;
+    cursor: pointer;
 }
 
 img {
@@ -612,6 +613,7 @@ img {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-top: 12px;
+    margin-bottom: 20px;
 }
 
 .mailing {
@@ -830,6 +832,7 @@ img {
     position: absolute;
     right: 10px;
     top: 10px;
+    
 }
 
 .close {
@@ -841,6 +844,7 @@ img {
     justify-content: center;
     border-radius: 50%;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .modal-svg {
@@ -1036,4 +1040,5 @@ img {
     border-radius: 4px;
     margin: 0 auto;
     margin-top: 30px;
+    cursor: pointer;
 }
